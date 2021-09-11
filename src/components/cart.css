@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.btn1 {
+  background-color: rgb(107, 86, 230);
+  margin: 2px;
+  padding: 10px;
+  border-radius: 5px;
+  height: 30px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.btn2 {
+  cursor: pointer;
+  background-color: rgb(196, 23, 152);
+  margin: 2px;
+  padding: 10px;
+  border-radius: 5px;
+  height: 30px;
+  width: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 100px 300px;
+  background-color: white;
+  justify-content: center;
+  padding: 2px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.check {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(67, 67, 200);
+  margin-left: 570px;
+  padding: 6px;
+  border-radius: 5px;
+}
+.btn3 {
+  background-color: rgb(255, 0, 0);
+  margin: 2px;
+  padding: 10px;
+  border-radius: 5px;
+  height: 30px;
+  width: 58px;
+  cursor: pointer;
+}
+.cancel {
+  padding: 8px;
+  cursor: pointer;
+
+  margin: 15px;
+}
+.image {
+  width: 380px;
+  height: 200px;
+}
+
+.home h1 {
+  margin-left: 460px;
+  margin-top: 100px;
+}
+.home li {
+  background-color: rgb(185, 161, 204);
+  text-decoration: none;
+  list-style: none;
+  font-size: larger;
+  width: 79px;
+  height: 61px;
+  border-radius: solid 50px;
+  padding-left: 11px;
+  margin-left: 600px;
+  margin-top: 25px;
+}
+
+.downside h4 {
+  margin-left: 28%;
+}
+.lastpage {
+  margin-left: 400px;
+  padding: 3px;
+  margin-top: 15px;
+  padding: 10px;
+}
+.lastpage h2 {
+  background-color: rgb(67, 67, 200);
+  width: 170px;
+  padding-left: 10px;
+  margin: 8px;
+}
+.active_class {
+  list-style: none;
+  text-decoration: none;
+  font-size: larger;
+  color: rgb(67, 67, 200);
+}
+
+.singup h2 {
+  padding: 8px 5px 0px 0px;
+  margin: 40px 90px 0px 200px;
+}
+
+.singup {
+  background-color: pink;
+  margin-left: 400px;
+
+  border-color: cyan;
+  border-radius: 8px;
+  width: fit-content;
+}
+.singup input {
+  padding: 5px;
+  margin: 40px 160px 0px 200px;
+  border-radius: 4px;
+}
+.prebtn {
+  background-color: rgb(67, 67, 200);
+  border-radius: 10px;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 35px 0px 9px 200px;
+  cursor: pointer;
+}
+
+.grid-containers {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  float: left;
+  grid-gap: 5px;
+  margin-left: 15px;
+  padding: 5px;
+}
+.grid-containers > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 15px;
+}
+.mar {
+  background-color: blue;
+ display: flex;
+ color:white;
+ 
+  
+}
+.mar h4 {
+  color:brown;
+  padding-right:100px
+  
+}
+
+.top{
+  margin:7px 5px 0px 900px; 
+ width: 35px;
+ height: 35px;
+background-color: pink;
+border:solid white;
+border-radius: 100px;
+padding-left :8px;
+ 
+}
