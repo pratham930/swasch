@@ -11,14 +11,17 @@ const ContextCart = () => {
       <div>
         <div className="mar">
           <h4>
-            {" "}
             <img src="/assets/restaurant_24px.svg" alt="" srcset="" />
-            Swasch Restaurant{" "}
+            Swasch Restaurant
           </h4>
           <button className="top">
-            
+            <img
+              className="img"
+              src="https://i.pinimg.com/originals/4e/51/1a/4e511adb8ca405f8893af07c9e2b885f.png"
+              alt="Italian Trulli"
+            />
             <NavLink className="active_class" to="/mart">
-              <h4>{totalItem}</h4>
+              <h6>{totalItem}</h6>
             </NavLink>
           </button>
         </div>

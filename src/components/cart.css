@@ -4,8 +4,8 @@
 }
 .btn1 {
   background-color: rgb(107, 86, 230);
-  margin: 2px;
-  padding: 10px;
+  margin: 1px;
+
   border-radius: 5px;
   height: 30px;
   width: 50px;
@@ -15,8 +15,8 @@
 .btn2 {
   cursor: pointer;
   background-color: rgb(196, 23, 152);
-  margin: 2px;
-  padding: 10px;
+  margin: 1px;
+
   border-radius: 5px;
   height: 30px;
   width: 50px;
@@ -29,26 +29,20 @@
   justify-content: center;
   padding: 2px;
 }
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
+
 .check {
   list-style: none;
   text-decoration: none;
   color: white;
   background-color: rgb(67, 67, 200);
-  margin-left: 570px;
+  margin: 0px 7px 0px 500px;
   padding: 6px;
   border-radius: 5px;
 }
 .btn3 {
   background-color: rgb(255, 0, 0);
   margin: 2px;
-  padding: 10px;
+
   border-radius: 5px;
   height: 30px;
   width: 58px;
@@ -68,18 +62,6 @@
 .home h1 {
   margin-left: 460px;
   margin-top: 100px;
-}
-.home li {
-  background-color: rgb(185, 161, 204);
-  text-decoration: none;
-  list-style: none;
-  font-size: larger;
-  width: 79px;
-  height: 61px;
-  border-radius: solid 50px;
-  padding-left: 11px;
-  margin-left: 600px;
-  margin-top: 25px;
 }
 
 .downside h4 {
@@ -101,7 +83,7 @@
   list-style: none;
   text-decoration: none;
   font-size: larger;
-  color: rgb(67, 67, 200);
+  color: blue;
 }
 
 .singup h2 {
@@ -150,25 +132,40 @@
   font-size: 15px;
 }
 .mar {
-  background-color: blue;
- display: flex;
- color:white;
- 
-  
+  background-color: rgb(209, 25, 25);
+  display: flex;
+  color: white;
 }
 .mar h4 {
-  color:brown;
-  padding-right:100px
-  
+  padding-right: 100px;
 }
 
-.top{
-  margin:7px 5px 0px 900px; 
- width: 35px;
- height: 35px;
-background-color: pink;
-border:solid white;
-border-radius: 100px;
-padding-left :8px;
- 
+.ord {
+  margin-left: 22%;
+  margin-top: 3%;
+}
+.img {
+  width: 55px;
+  height: 45px;
+  position: relative;
+  margin: 0px 0px 0px 0px;
+  background-color: rgb(209, 25, 25);
+  border: solid rgb(209, 25, 25);
+}
+.top h6 {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  right: 620px;
+  top: 61px;
+  left: 1052px;
+  background-color: white;
+  border-radius: 50%;
+  border: solid rgb(136, 99, 196);
+}
+.top {
+  margin-left: 700px;
+}
+.now {
+  margin-left: 46%;
 }
